@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>signup</title>
+    </head>
+    <body style="background-color: powderblue">
+        <br>
+        
+      <form  style="text-align: center" method="POST" action="/update/<%=data._id%>">
+          <br>
+          <br>
+          <br>
+          <br>
+                <h1><u>ENTER THE DETAILS</u></h1>
+                <h3>USERNAME : -  <input type="text" id="uid" name="uid" placeholder="USERNAME" value="<%=data.USERNAME %>" required></h3>
+            <h3>E-MAIL :- <input type="email" id="mail" name="mail" placeholder="abc@gmail.com" value="<%=data.EMAIL %>" required></h3>
+            <h3>PHONE NUMBER :- <input type="text" name="num" id="num" placeholder="1234567890" value="<%=data.PHONENUM %>"required></h3>
+            <br>
+           <button type="submit"  name="sub" id="sub" style="border-color: tomato">UPDATE</button>
+      </form>
+    </body>
+</html>
