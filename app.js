@@ -22,7 +22,7 @@ app.get('/',function(req,res){
         }); 
     res.redirect('signup.html')
      
-    }).listen(8080)
+    }).listen(3000)
     console.log("server on");
 
     app.use(bodyparser.json());
