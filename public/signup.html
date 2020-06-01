@@ -1,23 +1,105 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
     <head>
         <title>signup</title>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+        <style>
+            .ext {
+                    
+                   text-align: center;
+                   padding-left: 350px;
+
+            }
+            .btn {
+                border-radius: 150px;
+                width: 200px;
+                height: 1cm;
+                border: 2px;
+                font-size: 20px;
+                font-family: 'Balsamiq Sans', cursive;
+                text-align: center;
+                background-color: khaki;
+            }
+            .internal {
+                border: 2px;
+                font-family: 'Balsamiq Sans', cursive;
+                background-color: cyan;
+                zoom: 100%;
+            
+                padding-bottom: 20;
+                padding-top: 10;
+                height: 1cm;
+                font-size: 40px;
+                max-width: 60vw;
+                border-radius: 250px;
+                padding-right: 20;
+                padding-left: 20;
+                width: 600px;
+            }
+            .hg {
+                color: darkolivegreen;
+                font-size: x-large;
+                border-radius: 100px;
+                text-align: center;
+               
+                font-family: 'Balsamiq Sans', cursive;
+                
+            }
+            .h3 {
+                padding-top: 20;
+                padding-left: 350;
+                
+            }
+            .kk {
+               text-align: center;
+               
+            }
+            body
+            {
+                font-family: 'Balsamiq Sans', cursive;
+                text-align: center;
+                background-color: rosybrown;
+            }
+            h1{
+                font-size: 50px;
+                color: #000000;
+                font-stretch: wider;
+                font-family: 'Balsamiq Sans', cursive;
+            }
+           
+        </style>
     </head>
-    <body style="background-color: powderblue">
+    <body  >
         <br>
-        <marquee><h3>BY-HARISH GUPTA</h3></marquee>
-      <form  style="text-align: center" method="POST" action="/sub">
-          <br>
-          <br>
-          <br>
-          <br>
-                <h1><u>ENTER THE DETAILS</u></h1>
-                <h3>USERNAME : -  <input type="text" id="uid" name="uid" placeholder="USERNAME"  required></h3>
-               <h3>PASSWORD :-  <input type="password" id="pass" name="pass" placeholder="pass"  required></h3>
-            <h3>E-MAIL :- <input type="email" id="mail" name="mail" placeholder="abc@gmail.com"  required></h3>
-            <h3>PHONE NUMBER :- <input type="text" name="num" id="num"  placeholder="1234567890" required></h3>
+        <h1 style="text-align: center;"><u>Sign-up</u></h1>
+       
+        
+        <form  method="POST" action="/sub">
+            <div class="ext">
+            <div id="uid" class="internal">
+               
+              USERNAME  :   <input type="text" id="uid" class="hg" name="uid" placeholder="abc">
+                </div>
+        <br>
+        <div id="uid" class="internal">
+               
+            PASSWORD   :  <input type="password" id="pass" name="pass" class="hg" placeholder="abc">
+            </div>
             <br>
-           <button type="submit"  name="sub" id="sub" style="border-color: tomato">SUBMIT</button>
-      </form>
+            <div id="uid" class="internal">
+               
+                E-mail   :  <input type="email" id="mail" name="mail" class="hg" placeholder="abc@gmail.com">
+                </div>
+                <br>
+                <div id="uid" class="internal">
+               
+                    Mob no.   :  <input type="text" id="num" name="num" class="hg" placeholder="123">
+                    </div>
+                    <br>
+                </div>
+                        <button type="submit" class="btn" value="sub" name="sub">SUBMIT</button>
+                 
+   
+   </form>
     </body>
 </html>

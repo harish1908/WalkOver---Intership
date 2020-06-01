@@ -3,6 +3,7 @@ const bodyparser=require("body-parser")
 const app=express();
 var mongoose=require("mongoose")
 var mongo=require("mongodb")
+const port=process.env.PORT||5000;
 app.set('views', './views');
 app.set('view engine', 'ejs');
 
@@ -22,7 +23,7 @@ app.get('/',function(req,res){
         }); 
     res.redirect('signup.html')
      
-    }).listen(3000)
+    }).listen(port)
     console.log("server on");
 
     app.use(bodyparser.json());
